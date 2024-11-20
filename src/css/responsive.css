@@ -1,0 +1,39 @@
+@media(max-width: 500px){
+
+    .main{
+       display: flex;
+       justify-content: flex-start;
+       align-items: flex-start;
+      
+    }
+
+    .main .container{
+        width: 600px;
+        height: 6px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main .container .result{
+        width: 100%;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+
+    .main .container .result .text .paragraph{
+        width: 270px;
+        margin-bottom: 40px;
+    }
+
+    .main .container .summary .list .item{
+        height: 45px;
+        width: 100%;
+    }
+
+    
+.main .container .summary .list .btn a{
+    margin-top: 25px;
+    padding: 12px 60px;
+    border-radius: 30px;
+}
+}

@@ -1,0 +1,154 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Hanken Grotesk';
+}
+
+.main .container{
+    width: 590px;
+    height: 410px;
+    display: flex;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.main .container .result{
+    width: 50%;
+    background-image: linear-gradient( to bottom, hsl(252, 100%, 67%) 50%, hsl(241, 81%, 54%))  ;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main .container .result .title-result{
+    font-size: 20px;
+    color: var(--neutral-color1--);
+    margin-top: 27px;
+    
+}
+
+.main .container .result .circle{
+    background-image: linear-gradient( to bottom, hsla(256, 72%, 46%, 1) 50%, hsla(241, 72%, 46%, 0))  ;
+    border-radius: 50%;
+    margin-top: 27px;
+    width: 160px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main .container .result .circle .number{
+    font-size: 60px;
+    color: white;
+}
+
+.main .container .result .circle .number-sub{
+    font-size: 15px;
+    color: var(--neutral-color2--);
+}
+
+.main .container .result .text{
+    width: 215px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .container .result .text .title{
+    font-size: 25px;
+    color: white;
+    margin-top: 27px;
+}
+
+.main .container .result .text .paragraph{
+    margin-top: 9px;
+    font-size: 15px;
+    text-align: center;
+    color: var(--neutral-color2--)
+}
+
+.main .container .summary{
+    padding: 28px;
+}
+
+.main .container .summary .title{
+    font-size: 20px;
+}
+
+
+.main .container .summary .list .item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 17px;
+    margin-bottom: 10px;
+    height: 45px;
+    width: 230px;
+    border-radius: 10px;
+}
+
+.main .container .summary .list .reaction{
+   background-color: hsla(0, 100%, 67%, 0.092);
+   color: var(--reaction-color--);
+}
+
+.main .container .summary .list .memory{
+    background-color: hsl(39, 100%, 56%, 0.092);
+    color: var(--memory-color--);
+}
+
+.main .container .summary .list .verbal{
+    background-color: hsl(166, 100%, 37%, 0.092);
+    color: var(--verbal-color--);
+}
+
+.main .container .summary .list .visual{
+    background-color:  hsl(234, 85%, 45%, 0.092);
+    color: var(--visual-color--);
+}
+
+.main .container .summary .list .reaction-2,
+.main .container .summary .list .memory-2,
+.main .container .summary .list .verbal-2,
+.main .container .summary .list .visual-2{
+    display: flex;
+}
+
+.main .container .summary .list .img{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.main .container .summary .list .p{
+    padding-right: 15px;
+    color: black;
+    font-weight: 600;
+}
+
+.main .container .summary .list .p span{
+    color: gray;
+    font-weight: 600;
+}
+
+.main .container .summary .list .btn a{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    margin-top: 25px;
+    padding: 12px 83px;
+    background-color: black;
+    border-radius: 25px;
+    transition: 0.4s;
+}
+
+.main .container .summary .list .btn a:hover{
+    background-color: var(--visual-color--);
+}
